@@ -1,0 +1,13 @@
+react-dom: is used to transfer from one page to another . just like axios react-outer-dom package is used
+
+
+Link:navigate to particular page
+import {Link} from "react-router-dom";
+
+useNavigate()
+=============
+used to navigate or route to particular page 
+syntax:
+import {useNavigate} from 'react-router-dom';
+const navigateByUrl = useNavigate();
+<button onClick={()=>navigateByUrl('/path')}
